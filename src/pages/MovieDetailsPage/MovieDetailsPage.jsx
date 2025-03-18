@@ -9,10 +9,10 @@ export default function MovieDetailsPage() {
   return (
     <div>
         <h2>Movie - {movie} - {movieId}</h2>
-      {/* <Routes>
+      <Routes>
       <Route path="/movies/:movieId/cast" element={<MovieCast />} />
       <Route path="/movies/:movieId/reviews" element={<MovieReviews />} />
-    </Routes>   */}
+    </Routes>  
     </div>
     
   );
