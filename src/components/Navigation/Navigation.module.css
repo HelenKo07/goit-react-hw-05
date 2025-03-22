@@ -1,0 +1,43 @@
+.headerNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    margin: 0 auto; 
+    padding-left: 20px;
+    background-color: rgb(67, 44, 124);
+    box-shadow: 0 10px 10px rgba(174, 2, 236, 0.3);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    margin: 0;
+}
+
+.navList {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    gap: 30px;
+    list-style: none;
+}
+
+.navItem {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+}
+
+.logoNav {
+    width: 26px;
+    height: 24px;
+    margin-right: 16px;
+}
