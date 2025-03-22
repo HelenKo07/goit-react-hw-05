@@ -29,13 +29,15 @@ export default function MoviesPage() {
     setSearchParams(nextParams);
   };
 
+
   useEffect(() => {
+    if(!debounceQuery) return;
     async function getMovies() {
       try {
         setIsLoading(true);
         setError(false);
         const data = await fetchMoviesByQuery(debounceQuery);
-        setMovies(data.results);
+        setMovies(data);
       } catch {
         setError(true);
       } finally {
@@ -79,4 +81,4 @@ export default function MoviesPage() {
 }
 
 
-       
+
