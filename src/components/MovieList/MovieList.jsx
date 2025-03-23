@@ -9,11 +9,18 @@ export default function MovieList({ movies }) {
   }
 
   return (
-    <div className={css.movieListContainer}>
-      <ul>
+    <div className={css.containerMovies}>
+      <ul className={css.listMovi}>
         {movies.map((movie) => (
-          <li key={movie.id}>
-            <Link to={`/movies/${movie.id}`} state={{ from: locations }}>
+          <li key={movie.id} className={css.itemMovies}>
+            <div className={css.containerImgMovies}>
+             <img
+              className={css.movieImg}
+              src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+              alt={movie.title}
+            /> 
+            </div>
+            <Link to={`/movies/${movie.id}`} state={{ from: locations }} className={css.linkMovies}>
               {movie.title}
             </Link>
           </li>

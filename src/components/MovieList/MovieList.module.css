@@ -1,0 +1,40 @@
+.containerMovies {
+  display: flex;
+  list-style: none;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.listMovi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 0;
+  row-gap: 50px;
+  column-gap: 24px;
+}
+
+.itemMovies {
+  list-style: none;
+}
+
+.movieImg {
+    border-radius: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.linkMovies {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(22, 1, 58);
+  transition: color 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.linkMovies:hover {
+  color: rgb(37, 6, 135);
+}

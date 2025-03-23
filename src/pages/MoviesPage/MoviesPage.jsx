@@ -49,7 +49,7 @@ export default function MoviesPage() {
 
   return (
     <div className={css.containerMovisPage}>
-      <h1>Search Movies</h1>
+      <h2 className={css.searchSubtitle}>Search Movies</h2>
       <Formik
         className={css.formik}
         initialValues={{query}}
@@ -57,7 +57,7 @@ export default function MoviesPage() {
         onSubmit={changeSearchText}
       >
         {({values, handleChange}) => (
-          <Form className={css.form}>
+          <Form>
           <Field
             className={css.input}
             type="text"
