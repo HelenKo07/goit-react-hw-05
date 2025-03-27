@@ -36,53 +36,6 @@ export default function MovieDetailsPage() {
   if (!movie) return <p>Movie details not available.</p>;
 
   return (
-    // <div className={css.movieDetails}>
-    //   <NavLink to={backLinkHref.current ?? "/"} className={css.backLinkHref}>
-    //   ← Go Back
-    //   </NavLink>
-    //   <h1 className={css.detailsTitle}>{movie.original_title}</h1>
-    //   <img
-    //     className={css.movieListImg}
-    //     src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-    //     alt={movie.title}
-    //   />
-    //   <div className={css.movieListItemTitle}>
-    //     <h2>User Score: </h2>
-    //     <p>{movie.vote_average}%</p>
-    //   </div>
-    //   <div className={css.movieListItemOverview}>
-    //     <h3>Overview: </h3>
-    //     <p>{Math.round(movie.vote_average * 10)}%</p>
-    //   </div>
-    //   <div className={css.movieListItemGenre}>
-    //     <h3 className={css.movieListSubtitle}>Genres: </h3>
-    //     <p className={css.movieListText}>
-    //       {movie.genres.map((g) => g.name).join(", ")}
-    //     </p>
-    //   </div>
-    //   <hr />
-    //   <div className={css.movieListLink}>
-    //     <h3>Additional information</h3>
-    //     <NavLink
-    //       to={`/movies/${movie.id}/cast`}
-    //       state={locations}
-    //       className={css.listLink}
-    //     >
-    //       Movie Cast
-    //     </NavLink>
-    //     <NavLink
-    //       to={`/movies/${movie.id}/reviews`}
-    //       state={locations}
-    //       className={css.listLink}
-    //     >
-    //       Movie Reviews
-    //     </NavLink>
-    //   </div>
-      
-    //   <Suspense fallback={<Loader />}>
-    //     <Outlet />
-    //   </Suspense>
-    // </div>
     <div className={css.movieDetails}>
   <NavLink to={backLinkHref.current} className={css.backLinkHref}>
     ← Go back
