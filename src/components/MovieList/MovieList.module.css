@@ -14,15 +14,16 @@
   margin: 0 auto;
   padding: 0;
   row-gap: 50px;
-  column-gap: 24px;
+  column-gap: 14px;
 }
 
 .itemMovies {
   list-style: none;
+  width: 300px;
 }
 
 .movieImg {
-    border-radius: 10px;
+  border-radius: 10px;
   width: 300px;
   height: auto;
 }
