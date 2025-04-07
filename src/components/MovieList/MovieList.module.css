@@ -1,7 +1,7 @@
 .containerMovies {
   display: flex;
   list-style: none;
-  max-width: 1440px;
+  width: auto;
   height: auto;
   margin: 0 auto;
 }

@@ -1,5 +1,5 @@
 .subtitleReviews {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
   font-weight: bold;
   margin-top: 1px;
@@ -8,8 +8,7 @@
 }
 
 .textReviews {
- font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: rgb(20, 18, 36);   
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(20, 18, 36);
 }
-
